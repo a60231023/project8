@@ -15,8 +15,11 @@
     display: flex;
     flex-direction: column;
     background: url("../images/backcover.svg") no-repeat;
-    background-size: 50% 110%;
     background-position: right;
+    background-size: 67% 200%;
+    /* background-position: right; */
+    overflow-x: hidden;
+    height: 100vh;
 
 }
 
@@ -104,11 +107,14 @@ nav {
 
 .imgs-div {
     width: 60%;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     align-items: flex-end;
 }
 
+.problem-img{
+    height: 100%;
+}
 
 .vectors {
     display: flex;
@@ -130,20 +136,21 @@ nav {
 
 .intro-img {
     width: 70%;
-    height: 60%;
+    height: 100%;
+    position: relative;
 }
 
 
 
 
-@media (max-width:1300px) {
+/* @media (max-width:1300px) {
     .left-section {
         font-size: 0.7em;
     }
-}
+} */
 
 
-@media (max-width:850px) {
+/* @media (max-width:850px) {
     .main-div {
         background-size: 55% 120%;
     }
@@ -151,9 +158,9 @@ nav {
     .left-section {
         font-size: 0.6em;
     }
-}
+} */
 
-@media (max-width:650px) {
+ @media (max-width:650px) { 
 
     .main-div {
         background: unset;
